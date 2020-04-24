@@ -1,0 +1,88 @@
+<layout>
+
+    <data />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="倍速播放"
+            android:textColor="#303030"
+            android:textSize="18sp" />
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/tv_speed_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="0.75倍"
+            android:tag="0.75"
+            android:text="0.75倍速"
+            android:textColor="#303030"
+            android:textSize="14sp" />
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/tv_speed_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="1倍"
+            android:tag="1.0"
+            android:text="1倍速"
+            android:textColor="#303030"
+            android:textSize="14sp" />
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/tv_speed_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="1.5倍"
+            android:tag="1.5"
+            android:text="1.5倍速"
+            android:textColor="#303030"
+            android:textSize="14sp" />
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/tv_speed_4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="2倍"
+            android:tag="2.0"
+            android:text="2倍速"
+            android:textColor="#303030"
+            android:textSize="14sp" />
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="关闭"
+            android:textColor="#ff1001"
+            android:textSize="16sp" />
+    </LinearLayout>
+</layout>
